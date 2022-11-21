@@ -224,7 +224,7 @@ Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan 𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊 di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Neobot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan 𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊
 😖🙏`
 }
 
