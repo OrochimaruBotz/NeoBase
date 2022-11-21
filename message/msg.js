@@ -242,21 +242,21 @@ let { donasibot } = require('./help')
 		}
 		
 		const buttonsDefault = [
-			{ urlButton: { displayText: `Source Code`, url : `https://github.com/Lexxy24/NEOBOTV3` } },
-		    { callButton: { displayText: `Developer Bot`, phoneNumber: `+6283834558105` } },
+			{ urlButton: { displayText: `Source Code`, url : `Chat wa.me/6288804947282` } },
+		    { callButton: { displayText: `Developer Bot`, phoneNumber: `+6288804947282` } },
 			{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Menampilkan Menu`, id: `${prefix}allmenu` } }
 		]
         const buttonsDefalut = [
-			{ urlButton: { displayText: `Owner Number`, url : `https://Wa.me/6283834558105` } },
+			{ urlButton: { displayText: `Owner Number`, url : `https://Wa.me/6288804947282` } },
 			{ urlButton: { displayText: `Group Whatsapp`, url : `https://chat.whatsapp.com/FZcDqde6qzaI9hBuRo6zO8` } },
 			{ quickReplyButton: { displayText: `Rules`, id: `${prefix}rules` } },
 			{ quickReplyButton: { displayText: `Sewa`, id: `${prefix}sewa` } },
         	{ quickReplyButton: { displayText: `Click To Donate`, id: `${prefix}donate` } }
 		]
 		const buttonsSettings = [
-			{ urlButton: { displayText: `Source Code`, url : `https://github.com/Lexxy24/NEOBOTV3` } },
+			{ urlButton: { displayText: `Source Code`, url : `Chat wa.me/6288804947282` } },
 			{ quickReplyButton: { displayText: `No Prefix `, id: `${prefix}nopp` } },
         	{ quickReplyButton: { displayText: `Multi Prefix`, id: `${prefix}yopp` } },
         	{ quickReplyButton: { displayText: `Back To Menu`, id: `${prefix}allmenu` } }
@@ -346,18 +346,18 @@ let { donasibot } = require('./help')
 			case prefix+'menu':
 			case prefix+'help':
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefault, footer: 'NEOXY-TEAM ID © 2021', mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefault, footer: 'Tachibana Yuzi ×፝֟͜× And HumanzzZ © 2021', mentions: [sender] })
 				break
 case prefix+'allmenu':
 case prefix+'all':
 var teks = menuall(sender, prefix, pushname)
-conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefalut, footer: 'NEOXY-TEAM ID © 2021', mentions: [sender] })
+conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefalut, footer: 'Tachibana Yuzi ×፝֟͜× And HumanzzZ © 2021', mentions: [sender] })
 break
 case prefix+'settings':
 case prefix+'setting':
 if (!isOwner) return reply(mess.OnlyOwner)
 var teks = `*Silahkan Pilih Button Di Bawah Buat Setting Prefix Bot Nya*`
-conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsSettings, footer: 'NEOXY-TEAM ID © 2021', mentions: [sender] })
+conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsSettings, footer: 'Tachibana Yuzi ×፝֟͜× And HumanzzZ © 2021', mentions: [sender] })
 break
 case prefix+'rules':
 reply(`${rulesnya(sender, prefix)}`)
@@ -371,7 +371,7 @@ break
 			case prefix+'runtime':
 			    reply(runtime(process.uptime()))
 			    break
-			case prefix+'speed':
+			case prefix+'ping':
 			    let timestamp = speed();
                             let latensi = speed() - timestamp
                             textImg(`${latensi.toFixed(4)} Second`)
@@ -577,7 +577,7 @@ break
                 var anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 var buf = await getBuffer(anu.thumbnail)
                 console.log(anu)
-                var wm = `® Created By Lexxy Official`
+                var wm = `® Created By Tachibana Yuzi ×፝֟͜× And HumanzzZ `
 
 var buttonplayny = [
 {buttonId: `${prefix}ytmp3 ${anu.url}`, buttonText: {displayText: 'Audio'}, type: 1},
@@ -1335,7 +1335,7 @@ break
 
 case prefix+'sc':
 case prefix+'script':
-reply(`*Source Code :*\nhttps://youtube.com/channel/UCLd-bhT8Dqq9PjGc6bWUVyg`)
+reply(`*Buy 20k Chat wamme/6288804947282`)
 break
 case prefix+'tinyurl':
 if (!isNan) return reply(`*Example :*\n${prefix}tinyurl google.com`)
