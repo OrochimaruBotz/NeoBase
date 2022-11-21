@@ -41,7 +41,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 exports.menuall = (sender, prefix, pushname) => {
 	return `
 _*•──•──•──•──•──•──•──•*_
-   *NEOBOT WHATSAPP*
+   𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊 WHATSAPP
   *BAILEYS MULTI DEVICE*
 _*•──•──•──•──•──•──•──•*_
 
@@ -185,6 +185,7 @@ _*•──•──•──•──•──•──•──•*_
  ➢ Xfarr-api
  ➢ Leyscoders
  ➢ Lexxy Official
+ ➢ HumanzzZ
  ➢ Penyedia Modules
 
 `+'\`\`\`® Simple Bot Whatsapp\`\`\`'
@@ -207,7 +208,7 @@ Sanksi: *PERMANENT BLOCK*
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
 
 🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini di jual oleh Lexxy Official Jika Minat Chat Wa.me/6283834558105
+➡️ Script ini Tidak Dijual Oleh HumanzzZ Maka Kalau Mau Chat Wa.me/6288804947282
 
 🗯️ Boleh saya menambah ke grup?
 ➡️ Untuk sementara bot dalam status free to add group.
@@ -221,7 +222,7 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Neobot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan 𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊 di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Neobot
 😖🙏`
@@ -249,10 +250,10 @@ _Jika Minat Chat Owner Ketik #owner_
 exports.donasibot = (sender, prefix) => {
    return `
   ‣ *DONASI BOT*
- ➢ DANA = 08xxxxxxx
- ➢ OVO = 08xxxxxxx
- ➢ PULSA = 08xxxxxxx
- ➢ GOPAY = 08xxxxxxx
+ ➢ DANA = 089697488609
+ ➢ OVO = 089697488609
+ ➢ PULSA = 088804947282
+ ➢ GOPAY = 089697488609
  
 Hallo Kak ${ucapanWaktu}
 Beneran Mau Donasi Bot ??
